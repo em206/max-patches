@@ -1,5 +1,7 @@
 # FSK sync via Ableton Link.
 
+![Screenshot of the FSK sync patch in the middle of some mayhem](/fsk-sync/fsk-sync-screenshot-v1.16.png)
+
 This patch generates an FSK sync tone, tested with a Roland R-8 mkII.
 
 It can apply drastic rate scaling and mute sections of time while staying quite well-synced.
