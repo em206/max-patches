@@ -1,2 +1,4 @@
 # max-patches
-Some of my &lt;a href="cycling74.com">Max&lt;/a> work.
+
+Some of my [Max](https://cycling74.com) work.
+
