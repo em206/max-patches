@@ -62,7 +62,8 @@
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
-
+,
+					"varname" : "v8"
 				}
 
 			}
@@ -74,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -246.0, 874.0, 149.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "amp sequence commands"
 				}
 
@@ -208,7 +208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 595.0, 559.0, 170.0, 33.0 ],
+					"patching_rect" : [ 593.0, 559.0, 172.0, 33.0 ],
 					"text" : "\"seq rate\" defines the length of the amp/rate sequences"
 				}
 
@@ -220,7 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 842.0, 656.0, 166.0, 20.0 ],
+					"patching_rect" : [ 842.0, 390.0, 166.0, 20.0 ],
 					"text" : "resync on restart only for now"
 				}
 
@@ -386,6 +386,8 @@
 					"fontsize" : 24.0,
 					"hint" : "rate~ scaling factor for the amplitude and rate sequences (smaller is faster, 1.0 is 1 bar)",
 					"id" : "obj-187",
+					"lcdbgcolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ],
+					"lcdcolor" : [ 0.933333333333333, 0.772549019607843, 0.525490196078431, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -396,6 +398,14 @@
 					"presentation_rect" : [ 135.0, 285.0, 94.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"lcdbgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"lcdcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -856,7 +866,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1013.0, 653.0, 34.0, 26.0 ],
+					"patching_rect" : [ 1013.0, 387.0, 34.0, 26.0 ],
 					"text" : "sel 0"
 				}
 
@@ -941,7 +951,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ],
+					"bgcolor2" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 0.98 ],
+					"bgfillcolor_color1" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ],
+					"bgfillcolor_color2" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontsize" : 20.0,
+					"gradient" : 1,
 					"id" : "obj-11",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -949,9 +969,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 263.0, 285.0, 61.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.0, 285.0, 61.0, 31.0 ],
+					"presentation_rect" : [ 258.0, 285.0, 66.0, 31.0 ],
 					"text" : "---",
-					"textjustification" : 1,
+					"textcolor" : [ 0.933333333333333, 0.772549019607843, 0.525490196078431, 1.0 ],
+					"textjustification" : 0,
 					"varname" : "message"
 				}
 
@@ -1782,7 +1803,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1013.0, 688.0, 59.0, 22.0 ],
+					"patching_rect" : [ 1013.0, 422.0, 59.0, 22.0 ],
 					"text" : "goto 0. 0."
 				}
 
@@ -2283,6 +2304,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.0, 90.0, 323.0, 11.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 90.0, 323.0, 11.0 ],
 					"size" : 1.0,
 					"varname" : "slider"
 				}
@@ -2720,7 +2743,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-182", 1 ],
 					"hidden" : 1,
-					"midpoints" : [ 446.5, 515.718359654369124, 582.0, 515.718359654369124, 582.0, 503.350419045556919, 755.5, 503.350419045556919 ],
+					"midpoints" : [ 446.5, 515.718359654369124, 481.6905517578125, 515.718359654369124, 481.6905517578125, 503.394120217431919, 755.5, 503.394120217431919 ],
 					"order" : 0,
 					"source" : [ "obj-216", 0 ]
 				}
@@ -2820,6 +2843,18 @@
 					"destination" : [ "obj-155", 0 ],
 					"hidden" : 1,
 					"midpoints" : [ 1022.5, 766.5, 627.5, 766.5 ],
+					"order" : 0,
+					"source" : [ "obj-253", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-169", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 1022.5, 524.15625, 585.5, 524.15625 ],
+					"order" : 1,
 					"source" : [ "obj-253", 0 ]
 				}
 
