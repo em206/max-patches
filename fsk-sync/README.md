@@ -1,8 +1,8 @@
 # FSK sync via Ableton Link.
 
-<img src="/fsk-sync/fsk-sync-screenshot-v1.16.png" width="337" height="447"/>
-Screenshot of the FSK sync patch in the middle of some mayhem
-</img>
+<img src="/fsk-sync/fsk-sync-screenshot-v1.17.png" /> 
+
+    Screenshot of the FSK sync patch in the middle of some mayhem
 
 # Overview
 
@@ -23,7 +23,5 @@ The patch is preconfigured to use channel 3 of the DAC and it starts audio on lo
 
 ## Changelog
 
-### v1.16 - initial checkin
-
-### v1.17 - tidy, remove rtin/MIDI clock started display
-
+* v1.16 - initial checkin
+* v1.17 - tidy, remove rtin/MIDI clock started display
