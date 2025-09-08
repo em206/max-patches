@@ -25,3 +25,5 @@ The patch is preconfigured to use channel 3 of the DAC and it starts audio on lo
 
 ### v1.16 - initial checkin
 
+### v1.17 - tidy, remove rtin/MIDI clock started display
+
